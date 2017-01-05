@@ -21,27 +21,27 @@ import specbee.com.pareekshanam.R;
 public class Subcategories extends Activity
 {
 
-    GridView mGridView;
-    GridAdapter mGridAdapter;
-    ArrayList<String> mArrayList;
+    GridView gridView;
+    GridAdapter gridAdapter;
+    ArrayList<String> arrayList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.subcategories);
 
-        mArrayList = new ArrayList<String>();
-        mArrayList.add("Six");
-        mArrayList.add("Seven");
-        mArrayList.add("Eight");
-        mArrayList.add("Nine");
-        mArrayList.add("Ten");
+        arrayList = new ArrayList<String>();
+        arrayList.add("Six");
+        arrayList.add("Seven");
+        arrayList.add("Eight");
+        arrayList.add("Nine");
+        arrayList.add("Ten");
 
-        mGridView = (GridView)findViewById(R.id.gridView);
-        mGridAdapter = new GridAdapter(Subcategories.this,mArrayList);
-        mGridView.setAdapter(mGridAdapter);
+        gridView = (GridView)findViewById(R.id.gridView);
+        gridAdapter = new GridAdapter(Subcategories.this, arrayList);
+        gridView.setAdapter(gridAdapter);
 
-        mGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 TextView textView = (TextView)view.findViewById(R.id.tvTitle);

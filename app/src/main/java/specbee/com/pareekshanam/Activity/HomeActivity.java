@@ -1,5 +1,6 @@
 package specbee.com.pareekshanam.Activity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,29 +15,30 @@ import java.util.ArrayList;
 import specbee.com.pareekshanam.Adapter.GridAdapter;
 import specbee.com.pareekshanam.R;
 
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends Activity {
 
-    GridView mGridView;
-    GridAdapter mGridAdapter;
-    ArrayList<String> mArrayList;
+    GridView gridView;
+    GridAdapter gridAdapter;
+    ArrayList<String> arrayList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mArrayList = new ArrayList<String>();
-        mArrayList.add("One");
-        mArrayList.add("Two");
-        mArrayList.add("Three");
-        mArrayList.add("Four");
-        mArrayList.add("Five");
 
-        mGridView = (GridView) findViewById(R.id.gridView);
-        mGridAdapter = new GridAdapter(HomeActivity.this, mArrayList);
-        mGridView.setAdapter(mGridAdapter);
+        arrayList = new ArrayList<String>();
+        arrayList.add("One");
+        arrayList.add("Two");
+        arrayList.add("Three");
+        arrayList.add("Four");
+        arrayList.add("Five");
 
-        mGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        gridView = (GridView) findViewById(R.id.gridView);
+        gridAdapter = new GridAdapter(HomeActivity.this, arrayList);
+        gridView.setAdapter(gridAdapter);
+
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 TextView textView = (TextView) view.findViewById(R.id.tvTitle);
