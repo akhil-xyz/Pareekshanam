@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="F:\ProjectsTut\Pareekshanam\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="F:\ProjectsTut\Pareekshanam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_5f12c8b3fa4e46d3629c91cbf5c1d6a16fb8b33c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\PC\Documents\Pareekshanam\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
         <dex dex="C:\Users\PC\Documents\Pareekshanam\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_681d22dbfec7e6c7b88204bafbdd11bc28979e64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\ProjectsTut\Pareekshanam\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="F:\ProjectsTut\Pareekshanam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_5f12c8b3fa4e46d3629c91cbf5c1d6a16fb8b33c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="f923d51babc52f927da88fd5c1886caeb9082056">
+        sha1="e15c3ba2b490070ad952d8dfd69c5b6786c7efbf">
         <dex dex="F:\ProjectsTut\Pareekshanam\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_67d03c5aa9f7d7383de7ee1dd4d12e03a814c110\classes.dex" />
     </item>
     <item
@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="6b9ccd10342535f01cbd228bb069d4e286d34c39">
+        sha1="dcbf8f038e9a0826a1bff86d8a051a427729f9a9">
         <dex dex="F:\ProjectsTut\Pareekshanam\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ad43a817a6f6a0a940ad9bf84a17b6c009e55f83\classes.dex" />
     </item>
     <item
@@ -255,21 +255,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\PC\Documents\Pareekshanam\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\PC\Documents\Pareekshanam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ca1890c0a7efb51c3ce2b8c14ce3e157b016a3b2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\PC\Documents\Pareekshanam\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\Users\PC\Documents\Pareekshanam\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_0efe1903e699e0b41e6ebc4211ff955647519aab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\Documents\Pareekshanam\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\PC\Documents\Pareekshanam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ca1890c0a7efb51c3ce2b8c14ce3e157b016a3b2\classes.dex" />
     </item>
     <item
         is-multidex="true"

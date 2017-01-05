@@ -1,5 +1,6 @@
 package specbee.com.pareekshanam.Activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -39,6 +40,12 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 TextView textView = (TextView) view.findViewById(R.id.tvTitle);
+                if(textView.getText().toString().equals("Five"))
+                {
+                    startActivity(new Intent(HomeActivity.this,Subcategories.class));
+                    finish();
+                    return;
+                }
                 Toast.makeText(HomeActivity.this, "" + textView.getText().toString(), Toast.LENGTH_SHORT).show();
             }
         });
